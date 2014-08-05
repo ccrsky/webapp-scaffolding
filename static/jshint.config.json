@@ -33,20 +33,5 @@
 			"MaskLayer": true,
 			"DialogManager": true
 		}
-	},
-	"base": {
-		"options": {
-			"evil": true,
-			"curly": false,
-			"eqnull": true,
-			"eqeqeq": false
-		},
-		"files": {
-			"src": ["Gruntfile.js", "src/js/lib/base.js"]
-		}
-	},
-	"lib": ["src/js/lib/pagination.js"],
-	"all": ["src/js/**/*.js"],
-	"apps": ["src/js/apps/**/*.js"],
-	"module": ["src/js/module/**/*.js"]
+	}
 }

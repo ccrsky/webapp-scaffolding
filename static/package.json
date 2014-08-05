@@ -2,12 +2,12 @@
   "name": "static-project",
   "version": "0.1.0",
   "description": "project for netposa",
-  "main": "./js/seajs/sea.js",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "",
-  "author": "lovemoon@yeah.net",
+  "author": "ccrsky",
   "license": "BSD",
   "devDependencies": {
     "grunt": "~0.4.0",
