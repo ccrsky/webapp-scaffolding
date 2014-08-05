@@ -1,0 +1,52 @@
+{
+	"options": {
+		"curly": true,
+		"eqnull": false,
+		"eqeqeq": true,
+		"evil": false,
+		"immed": false,
+		"nomen": true,
+		"loopfunc": true,
+		"undef": true,
+		"browser": true,
+		"node": true,
+		"jquery": true,
+		"mootools": true,
+		"globals": {
+			"define": true,
+			"seajs": true,
+			"confirm": true,
+			"alert": true,
+			"prompt": true,
+			"ActiveXObject": true,
+			"CommonDialog": true,
+			"AlertDialog": true,
+			"ConfirmDialog": true,
+			"smallnotes": true,
+			"Toolkit": true,
+			"AjaxQueue": true,
+			"AjaxOnly": true,
+			"CometRequest": true,
+			"DOMPanel": true,
+			"CommonEvents": true,
+			"Offset": true,
+			"MaskLayer": true,
+			"DialogManager": true
+		}
+	},
+	"base": {
+		"options": {
+			"evil": true,
+			"curly": false,
+			"eqnull": true,
+			"eqeqeq": false
+		},
+		"files": {
+			"src": ["Gruntfile.js", "src/js/lib/base.js"]
+		}
+	},
+	"lib": ["src/js/lib/pagination.js"],
+	"all": ["src/js/**/*.js"],
+	"apps": ["src/js/apps/**/*.js"],
+	"module": ["src/js/module/**/*.js"]
+}
